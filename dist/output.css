@@ -900,6 +900,10 @@ video {
   max-width: 24rem;
 }
 
+.max-w-screen-xl {
+  max-width: 1280px;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
