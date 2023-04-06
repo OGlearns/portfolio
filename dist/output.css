@@ -876,10 +876,6 @@ video {
   width: 91.666667%;
 }
 
-.w-2\/4 {
-  width: 50%;
-}
-
 .w-4\/5 {
   width: 80%;
 }
@@ -2290,8 +2286,8 @@ video {
   -moz-osx-font-smoothing: auto;
 }
 
-.opacity-90 {
-  opacity: 0.9;
+.opacity-20 {
+  opacity: 0.2;
 }
 
 .bg-blend-normal {
@@ -2674,18 +2670,8 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-1\/4 {
-    width: 25%;
-  }
-
   .sm\:underline {
     text-decoration-line: underline;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:w-3\/4 {
-    width: 75%;
   }
 }
 
