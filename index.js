@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-
+// easyscroll callback function
 function easyScroll(event) {
-event.preventDefault()
-const targetId = this.getAttribute('href')
-const targetPosition = document.querySelector(targetId).offsetTop
-window.scrollTo({
-    top: targetPosition,
-    behavior: 'smooth'
-})
+    event.preventDefault()
+    const targetId = this.getAttribute('href')
+    const targetPosition = document.querySelector(targetId).offsetTop
+    window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+    })
 }
